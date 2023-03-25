@@ -10,22 +10,23 @@
   <body>
     <div class="container">
       <div class="bars_container" id="bars_container"></div>
-
+      
       <div class="buttons_container">
-        <!-- <label for="slider">Array Size:</label> -->
+        
+        <label style="color:white; font-family:Sans-serif; font-size:82%;" for="slider" >Array Size : &nbsp; </label>
         <input
           type="range"
           id="slider"
-          min="50"
-          max="150"
+          min="15"
+          max="100"
           step="5"
           value="50"
         />
 
         <select name="" id="speed">
-          <option value="100">Slow</option>
-          <option value="50">Medium</option>
-          <option value="10">Fast</option>
+          <option style="font-family:Sans-serif" value="25">Slow</option>
+          <option style="font-family:Sans-serif" value="10">Medium</option>
+          <option  style="font-family:Sans-serif" value="1">Fast</option>
         </select>
         <select name="" id="algo">
           <option value="bubble">Bubble Sort</option>
@@ -34,8 +35,8 @@
           <option value="merge">Merge Sort</option>
           <option value="quick">Quick Sort</option>
         </select>
-        <button id="randomize_array_btn">Randomize Array</button>
-        <button id="sort_btn">Sort</button>
+        <button style="font-family:Sans-serif" id="randomize_array_btn">Randomize Array</button>
+        <button style="font-family:Sans-serif" id="sort_btn">Sort</button>
       </div>
     </div>
 
