@@ -11,7 +11,7 @@ This repository is an attempt to help in learning popular sorting algorithms by 
 
 
 ## How to use
-1. Click on link:- [Sorting visulizer](https://shahfaidrabbani.github.io/sorting-visualiser.github.io/)
+1. Click on link:- [Sorting visualizer](https://shahfaidrabbani.github.io/sorting-visualiser/)
 2. Set array size using the slider.
 3. Set speed i.e slow, medium, fast.
 4. Select the Sorting Algorithm from the list.
